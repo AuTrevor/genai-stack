@@ -47,6 +47,10 @@ completely to start up again.
 docker compose down
 ```
 
+# Persistance
+By default the Neo4j database is persisted to ./data and the ollama model to ./ollama to speed up subsequent startup times.
+
+
 # Applications
 ## App 1 - Support Agent Bot
 
